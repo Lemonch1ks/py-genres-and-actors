@@ -18,7 +18,7 @@ def main() -> QuerySet:
         ("Scarlett", "Johansson")
     ]
     for genre in genres:
-        Genre.objects.create(name= genre)
+        Genre.objects.create(name=genre)
 
     for first_name, last_name in actors:
         Actor.objects.create(first_name=first_name, last_name=last_name)
